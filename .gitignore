@@ -41,6 +41,6 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
-
+.idea
 
 #!! ERROR: websotrm is undefined. Use list command to see defined gitignore types !!#

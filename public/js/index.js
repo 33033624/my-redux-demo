@@ -11,11 +11,24 @@ class Add extends Component {
     }
     render() {
         return <div>
-            {store.getState()}
+            <One count={store.getState().a} onAdd={this.addOne} />
+        </div>
+    }
+}
+
+class One extends Component {
+    addOne() {
+        this.props.onAdd();
+    }
+
+    render() {
+        return <div>
+            {this.props.count}
             <button onClick={this.addOne.bind(this)}>+</button>
         </div>
     }
 }
+
 
 
 ReactDOM.render(<Add/>,document.getElementById('root'));
