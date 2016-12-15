@@ -1,4 +1,4 @@
-#redux-demo  + react-router + react es6
+#redux + react-router + react es6
 ``1 npm install ``
 
 ``2 node server.js``
