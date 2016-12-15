@@ -1,4 +1,4 @@
-#redux-demo
+#redux-demo  + react-router + react es6
 ``1 npm install ``
 ``2 node server.js``
 ``3 打开浏览器 localhost:3000``
@@ -18,4 +18,32 @@
  </p>
  
  <p>3 为什么我在组件One中改变a的值在组件DecreaseOne中也会重新渲染  这就是redux的亮点之处 其实就是一个全局变量  但是会重新渲染所有组件</p>
+ 
+ 
+ 
+ 
+ ``
+ 加入react-router实现两个页面的轮换
+ 并且我们的redux中的a是公用的  点击+-仍然会在另一个里面变化
+ 
+ 
+ ``
+ 
+ 
+ ``
+第一页 
+``
+<div>
 
+<img src='public/js/image/first.png'>
+</div>
+ 
+
+ ``
+第二页 
+``
+<div>
+
+<img src='public/js/image/second.png'>
+</div>
+ 

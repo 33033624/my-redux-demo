@@ -11,7 +11,11 @@ module.exports = {
     },
     module: {
         loaders: [
-            { test: /\.js|jsx$/, loaders: ['babel'] }
+            { test: /\.js|jsx$/, loaders: ['babel'] },
+            {
+                test: /\.(png|jpg)$/,
+                loader: 'url-loader?limit=8192'
+            }
         ]
     }
 }
