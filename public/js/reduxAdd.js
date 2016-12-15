@@ -3,6 +3,9 @@ export default function (state = {a: 1},action) {
         case 'ADD':
             state.a += action.count;
             return state;
+        case 'DECREASE':
+            state.a -= action.count;
+            return state;
         default:
             return state;
     }
