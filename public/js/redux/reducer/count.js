@@ -1,7 +1,9 @@
 export default function (state = {a: 1},action) {
+    console.log('dispatch');
     switch (action.type) {
         case 'ADD':
             state.a += action.count;
+              console.log(state.a,'add');
             return state;
         case 'DECREASE':
             state.a -= action.count;
@@ -9,4 +11,5 @@ export default function (state = {a: 1},action) {
         default:
             return state;
     }
+
 }
