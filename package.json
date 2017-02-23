@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "webpack webpack.config.js;nodemon server.js",
     "test": "webpack -d --watch"
   },
   "keywords": [],

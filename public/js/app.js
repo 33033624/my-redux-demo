@@ -172,9 +172,10 @@ export class AddImage extends Component{
     render(){
       return(
 
-        <div>
+        <div  style={{flexDirection: 'column'}}>
             <input type="file" id="photo"/>
             <div id="click" style={{width: '200px', height: '200px',border: '1px solid #000'}}></div>
+            
         </div>
 
 
